@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Data Siswa</title>
+  <link rel="stylesheet" href="css/form1.css" />
+</head>
+<body>
+  <div class="form-wrapper">
+    <header class="form-header">
+      <img src="/assets/img/Rectangle 6.png" alt="Logo Yayasan Nurul Fikri">
+    </header>
+    
+    <nav class="form-nav">
+      <div class="nav-item active">Siswa<br><span class="active">Data Calon Siswa</span></div>
+      <div class="nav-item">Kesehatan<br><span>Data kesehatan</span></div>
+      <div class="nav-item">Domisili<br><span>Alamat siswa</span></div>
+      <div class="nav-item">Wali Murid<br><span>Data Wali murid</span></div>
+      <div class="nav-item">Prestasi siswa<br><span>Data Prestasi</span></div>
+      <div class="nav-item">Konfirmasi<br><span>Pendaftaran</span></div>
+    </nav>
+
+    <section class="form-section">
+      <h2>Data Siswa</h2>
+      <p>Data Calon Siswa Baru</p>
+      <form class="data-form">
+        <div class="form-row">
+          <input type="text" placeholder="Nama *" required />
+          <select required><option>Jenis Kelamin *</option><option>Laki-laki</option><option>Perempuan</option></select>
+          <input type="date" required />
+          <input type="text" placeholder="Tempat lahir *" required />
+        </div>
+
+        <div class="form-row">
+          <select required><option>Anak ke *</option></select>
+          <select required><option>Bersaudara *</option></select>
+          <input type="text" placeholder="NIK *" required />
+          <select required><option>Agama *</option></select>
+        </div>
+
+        <div class="form-row">
+          <select required><option>Pilihan Jenjang *</option></select>
+          <div class="phone-input">
+            <span>+62</span>
+            <input type="tel" placeholder="No Telepon Siswa *" required />
+          </div>
+          <div class="file-input">
+            <label>Pas Foto *</label>
+            <input type="file" required />
+          </div>
+          <div class="file-input">
+            <label>Kartu Keluarga *</label>
+            <input type="file" required />
+          </div>
+        </div>
+
+        <div class="form-buttons">
+          <a href="register.html" class="btn back"><</a>
+          <a href="form2.html" class="btn next">></a>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
